@@ -1,0 +1,13 @@
+data/1.tif 40000 0.05
+data/2.tif 90000 0.05
+data/3.tif 35000 0.05
+data/4.tif 35000 0.05
+data/5.tif 27000 0.05
+data/6.tif 60000 0.05
+data/7.tif 35000 0.05
+data/8.tif 140000 0.05
+data/9.tif 5500 0.05
+data/10.tif 35000 0.05
+data/11.tif 15000 0.05
+data/12.tif 5500 0.05
+data/13.tif 25000 0.05
