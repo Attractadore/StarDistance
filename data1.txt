@@ -1,0 +1,30 @@
+./data1/M2.png 40.9 0.5
+./data1/M3.png 34.2 0.5
+./data1/M4.png 5.6 0.5
+./data1/M5.png 26.6 0.5
+./data1/M9.png 46.1 0.5
+./data1/M10.png 24.8 0.5
+./data1/M12.png 20.8 0.5
+./data1/M13.png 25.9 0.5
+./data1/M14.png 55.6 0.5
+./data1/M15.png 39.0 0.5
+./data1/M19.png 45.0 0.5
+./data1/M22.png 10.4 0.5
+./data1/M28.png 34.5 0.5
+./data1/M30.png 29.5 0.5
+./data1/M53.png 61.3 0.5
+./data1/M54.png 84.7 0.5
+# ./data1/M55.png 19.3 0.5
+./data1/M56.png 27.4 0.5
+./data1/M62.png 34.9 0.5
+./data1/M68.png 36.6 0.5
+# ./data1/M69.png 36.9 0.5
+# ./data1/M170.png 34.8 0.5
+./data1/M71.png 18.3 0.5
+./data1/M72.png 58.5 0.5
+./data1/M75.png 77.8 0.5
+./data1/M79.png 45.0 0.5
+./data1/M80.png 48.3 0.5
+./data1/M92.png 27.1 0.5
+./data1/M107.png 27.4 0.5
+./data1/Pal7.png 16 0.5
