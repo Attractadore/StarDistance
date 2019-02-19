@@ -33,3 +33,16 @@
 # ./data1/NGC2419.png 275 0.5
 ./data1/NGC6426.png 68 0.5
 ./data1/NGC5694.png 113 0.5
+data/1.tif 40 0.05
+data/2.tif 90 0.05
+data/3.tif 35 0.05
+data/4.tif 35 0.05
+data/5.tif 27 0.05
+data/6.tif 60 0.05
+data/7.tif 35 0.05
+data/8.tif 140 0.05
+data/9.tif 5.5 0.05
+data/10.tif 35 0.05
+data/11.tif 15 0.05
+data/12.tif 5.5 0.05
+data/13.tif 25 0.05
