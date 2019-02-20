@@ -33,11 +33,6 @@
 # ./data1/NGC2419.png 275 0.5
 ./data1/NGC6426.png 68 0.5
 ./data1/NGC5694.png 113 0.5
-./data1/NGC7006.png 140 0.5
-./data1/NGC5634.png 82 0.5
-./data1/NGC6426.png 68 0.5
-# ./data1/NGC2419.png 275 0.5
-./data1/NGC5694.png 113 0.5
 ./data1/NGC288.png 29 0.5
 ./data1/NGC4147.png 63 0.5
 ./data1/NGC6229.png 99 0.5
