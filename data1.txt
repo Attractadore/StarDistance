@@ -33,3 +33,24 @@
 # ./data1/NGC2419.png 275 0.5
 ./data1/NGC6426.png 68 0.5
 ./data1/NGC5694.png 113 0.5
+./data1/NGC7006.png 140 0.5
+./data1/NGC5634.png 82 0.5
+./data1/NGC6426.png 68 0.5
+# ./data1/NGC2419.png 275 0.5
+./data1/NGC5694.png 113 0.5
+./data1/NGC288.png 29 0.5
+./data1/NGC4147.png 63 0.5
+./data1/NGC6229.png 99 0.5
+./data1/NGC6235.png 37 0.5
+./data1/NGC6284.png 50 0.5
+./data1/NGC6287.png 30 0.5
+./data1/NGC6293.png 29 0.5
+./data1/NGC6304.png 20 0.5
+./data1/NGC6316.png 36 0.5
+./data1/NGC6235.png 24 0.5
+./data1/NGC6342.png 28 0.5
+./data1/NGC6356.png 50 0.5
+./data1/NGC6366.png 12 0.5
+./data1/NGC6401.png 34 0.5
+./data1/NGC6440.png 27 0.5
+./data1/NGC6517.png 35 0.5
