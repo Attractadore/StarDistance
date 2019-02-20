@@ -4,6 +4,7 @@ import sys
 from math import sqrt
 from matplotlib import pyplot
 from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import PolynomialFeatures
 
 def measure_fluctuation_squares(img, perc, square_side=10):
     im = load_gs_image(img, perc)
@@ -46,7 +47,8 @@ def main():
     with open(rf, "r") as f:
         distances = []
         # fluc_funcs = [measure_fluctuation, measure_fluctuation_squares]
-        fluc_funcs = [measure_fluctuation_squares]
+        # fluc_funcs = [measure_fluctuation_squares]
+        fluc_funcs = [measure_fluctuation]
         flucs = [list() for _ in range(len(fluc_funcs))]
         for line in f:
             inp = line.replace("\n", "").split(" ")
@@ -74,15 +76,23 @@ def main():
         # pyplot.ylim(0.01, 1)
         # pyplot.xscale("log")
         # pyplot.yscale("log")
-        inverse_distances = [1 / d for d in distances]
+        # inverse_distances = [1 / d for d in distances]
+        poly = PolynomialFeatures(degree=2)
+        # inverse_distances = numpy.divide(1, numpy.split(poly.fit_transform(numpy.asarray(distances).reshape(-1, 1)), 3, axis=1)[-1])
+        inverse_distances = numpy.divide(1, numpy.cbrt(distances)).reshape(-1, 1)
+        print(inverse_distances)
         for f in flucs:
             clf = LinearRegression()
-            clf.fit(numpy.asarray(inverse_distances).reshape(-1, 1), f)
+            clf.fit(inverse_distances, f)
             test_data = numpy.linspace(0.01, max(distances) + 10, 500)
-            inverse_test_data = numpy.asarray([1/d for d in test_data])
-            test_flucs = clf.predict(inverse_test_data.reshape(-1, 1))
-            pyplot.plot(test_data, test_flucs)
+            # inverse_test_data = numpy.divide(1, numpy.split(poly.fit_transform(numpy.asarray(test_data).reshape(-1, 1)), 3, axis=1)[-1])
+            inverse_test_data = numpy.divide(1, numpy.cbrt(test_data)).reshape(-1, 1)
+            test_flucs = clf.predict(inverse_test_data)
+            pyplot.plot(test_data, test_flucs, color="red")
             pyplot.scatter(distances, f)
+
+        for e in zip(flucs[0], distances):
+            print("{0}, {1}".format(e[0], e[1]))
 
         pyplot.show()
 

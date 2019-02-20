@@ -28,7 +28,7 @@
 ./data1/M92.png 27.1 0.5
 ./data1/M107.png 27.4 0.5
 # ./data1/Pal7.png 16 0.5
-./data1/NGC7006.png 140 0.5
+# ./data1/NGC7006.png 140 0.5
 ./data1/NGC5634.png 82 0.5
 # ./data1/NGC2419.png 275 0.5
 ./data1/NGC6426.png 68 0.5
@@ -49,3 +49,11 @@
 ./data1/NGC6401.png 34 0.5
 ./data1/NGC6440.png 27 0.5
 ./data1/NGC6517.png 35 0.5
+./data1/NGC6544.png 9 0.5
+./data1/NGC6553.png 20 0.5
+./data1/NGC6638.png 31 0.5
+./data1/NGC6642.png 27 0.5
+./data1/NGC6712.png 23 0.5
+./data1/NGC6760.png 24 0.5
+./data1/NGC6934.png 51 0.5
+# ./data1/NGC7492.png 84 0.5
